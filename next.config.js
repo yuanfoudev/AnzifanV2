@@ -18,7 +18,7 @@ const nextConfig = {
         return config
     },
     images: {
-        domains: ['www.notion.so','notion.so','static.anzifan.com', 'cdn.sspai.com', 'cdn.dribbble.com', 'image.freepik.com', 'avatars.githubusercontent.com', 'cdn.jsdelivr.net', 'images.unsplash.com'],
+        domains: ['notion.so','static.anzifan.com', 'cdn.sspai.com', 'cdn.dribbble.com', 'image.freepik.com', 'avatars.githubusercontent.com', 'cdn.jsdelivr.net', 'images.unsplash.com'],
         remotePatterns: [
             {
                 protocol: 'https',
