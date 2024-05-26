@@ -77,8 +77,8 @@ interface BlogConfig {
 
 const CONFIG: BlogConfig = {
   NOTION_PAGE_ID:
-    process.env.NOTION_PAGE_ID ?? '8279f7facd874df284055b2d84cd9a58',
-  NOTION_SITE_NAME: 'anzifan',
+    process.env.NOTION_PAGE_ID ?? 'be1b622baba5422bbdb5fd8255d733ee',
+  NOTION_SITE_NAME: 'yuanfou',
   NEXT_REVALIDATE_SECONDS: 60,
   FORCE_UPDATE_TIME: 1620000000000,
   DEFAULT_POST_COVER:
@@ -99,7 +99,7 @@ const CONFIG: BlogConfig = {
     FREINDS: 'friends',
     ABOUT: 'about',
   },
-  SITE_START_DATE: '2020',
+  SITE_START_DATE: '2023',
   SITE_BEIAN: {
     ICP: '苏ICP备 2020060340 号',
     GONGAN: '苏公网安备 32011202000528 号',
@@ -107,9 +107,9 @@ const CONFIG: BlogConfig = {
   SHOW_UNSUPPORTED_BLOCK: false,
   STRICT_QUOTE_CARD: true,
   PAST_BLOG_INFO: {
-    URL: 'https://anzifan-old.vercel.app',
-    POST_URL: 'https://anzifan-old.vercel.app/post',
-    STOP_DATE: '2022-05-07',
+    URL: 'yuanfou-blog.vercel.app',
+    POST_URL: 'yuanfou-blog.vercel.app',
+    STOP_DATE: '2024-05-12',
   },
   REPOST_MESSAGE: [
     {
@@ -119,7 +119,7 @@ const CONFIG: BlogConfig = {
       COLOR: 'red',
     },
   ],
-  ENABLE_COMMENT: true,
+  ENABLE_COMMENT: false,
   COMMENT_CONFIG: {
     GISCUS: {
       REPO: 'MannyCooper/giscus-discussions',
